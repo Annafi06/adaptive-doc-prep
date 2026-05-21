@@ -10,7 +10,18 @@ client = Groq(
 )
 
 
-def generate_mcqs(section_text, num_questions=5):
+def generate_mcqs(
+    section_text,
+    num_questions=5,
+    weak_topics=None
+):
+    weak_topics_text = ""
+
+    if weak_topics:
+        weak_topics_text = f"""
+        Focus more on these weak topics:
+        {', '.join(weak_topics)}
+        """
 
     prompt = f"""
     Generate {num_questions} MCQs from the following text.
@@ -42,6 +53,8 @@ def generate_mcqs(section_text, num_questions=5):
       }}
     ]
 
+    {weak_topics_text}
+    
     TEXT:
     {section_text}
     """
