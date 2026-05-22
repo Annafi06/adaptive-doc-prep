@@ -27,8 +27,8 @@ This project is an adaptive document preparation system that:
 - [x] PDF parsing
 - [x] Gemini LLM integration
 - [x] MCQ generation API
-- [ ] Adaptive engine
-- [ ] Session tracking
+- [x] Adaptive engine
+- [x] Session tracking
 
 ## Setup
 
@@ -58,3 +58,53 @@ Reason for choice:
 - Extremely fast inference
 - Reliable structured output generation
 - Easy API integration
+
+## Adaptive Engine
+
+The system tracks historical user performance and identifies weak topics based on repeated incorrect answers.
+
+Adaptive behavior:
+- Weak topics are prioritized in future MCQ generation
+- Question-level history is persisted in SQLite
+- Session tracking supports longitudinal preparation analysis
+
+## Database Schema
+
+### Sessions Table
+Stores:
+- session ID
+- selected sections
+- final score
+
+### Question Results Table
+Stores:
+- question text
+- user answer
+- correct answer
+- correctness
+- topic
+- explanation
+
+## Additional Features
+
+### Session History API
+Retrieve all historical preparation sessions.
+
+### Analytics API
+Track topic-wise accuracy and identify weak areas.
+
+### Session Detail API
+Inspect question-level performance history.
+
+### Export System
+Session evaluation results are automatically exported as JSON reports.
+
+## API Endpoints
+
+| Endpoint | Method | Purpose |
+|---|---|---|
+| /generate-quiz | POST | Generate adaptive MCQs |
+| /submit-answers | POST | Submit answers and score |
+| /sessions | GET | Retrieve session history |
+| /session/{id} | GET | Retrieve session details |
+| /analytics | GET | Retrieve performance analytics |

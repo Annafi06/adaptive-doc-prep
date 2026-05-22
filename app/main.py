@@ -6,6 +6,8 @@ from app.schemas import QuizRequest, SubmissionRequest
 from app.database import SessionLocal
 from app.models import Session, QuestionResult
 from app.adaptive_engine import get_weak_topics
+from app.analytics import calculate_topic_accuracy
+from app.exporter import export_session_results
 
 app = FastAPI()
 
@@ -34,11 +36,19 @@ def generate_quiz(request: QuizRequest):
         if sec_id in sections_data:
             combined_text += sections_data[sec_id]["content"]
 
-    questions = generate_mcqs(
-        combined_text,
-        request.num_questions,
-        weak_topics
-    )
+    try:
+
+        questions = generate_mcqs(
+            combined_text,
+            request.num_questions,
+            weak_topics
+        )
+
+    except Exception as e:
+
+        return {
+            "error": str(e)
+        }
 
     return {
         "weak_topics_used": weak_topics,
@@ -103,7 +113,72 @@ def submit_answers(request: SubmissionRequest):
 
     db.commit()
 
+    export_path = export_session_results(
+    session.id,
+    results
+    )
+
     return {
         "score": score,
+        "results": results,
+        "exported_file": export_path
+    }
+
+@app.get("/sessions")
+def get_sessions():
+
+    db = SessionLocal()
+
+    sessions = db.query(Session).all()
+
+    results = []
+
+    for session in sessions:
+
+        results.append({
+            "session_id": session.id,
+            "sections": session.sections,
+            "score": session.score
+        })
+
+    return {
+        "sessions": results
+    }
+
+@app.get("/session/{session_id}")
+def get_session_details(session_id: int):
+
+    db = SessionLocal()
+
+    questions = db.query(QuestionResult).filter(
+        QuestionResult.session_id == session_id
+    ).all()
+
+    results = []
+
+    for q in questions:
+
+        results.append({
+            "question": q.question,
+            "correct_answer": q.correct_answer,
+            "user_answer": q.user_answer,
+            "is_correct": q.is_correct,
+            "topic": q.topic,
+            "explanation": q.explanation
+        })
+
+    return {
+        "session_id": session_id,
         "results": results
+    }
+
+@app.get("/analytics")
+def analytics():
+
+    db = SessionLocal()
+
+    analytics_data = calculate_topic_accuracy(db)
+
+    return {
+        "analytics": analytics_data
     }
