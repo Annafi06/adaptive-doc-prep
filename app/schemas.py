@@ -17,3 +17,4 @@ class AnswerItem(BaseModel):
 class SubmissionRequest(BaseModel):
     sections: List[int]
     answers: List[AnswerItem]
+    iteration_name: str | None = None

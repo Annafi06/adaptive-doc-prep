@@ -4,7 +4,7 @@
     ],
     "questions": [
         {
-            "question": "What is the primary base of the asset's operations?",
+            "question": "What is the primary base of the asset's operational territory?",
             "options": [
                 "Edificio Marasol",
                 "Cuartel Valpara\u00edso",
@@ -24,7 +24,7 @@
                 "6,820 m\u00b2"
             ],
             "correct_answer": "4,820 m\u00b2",
-            "explanation": "The total floor area of Cuartel Valpara\u00edso is given as 4,820 m\u00b2 in Section 8.1.",
+            "explanation": "The total floor area of Cuartel Valpara\u00edso is given as 4,820 m\u00b2 in the parameter table.",
             "topic": "Operational Tactics and Combat Doctrine"
         },
         {
@@ -52,7 +52,7 @@
             "topic": "Operational Tactics and Combat Doctrine"
         },
         {
-            "question": "How many burst-relay nodes serve the asset's operational territory within the PAMC Yatiri network?",
+            "question": "How many burst-relay nodes are within the PAMC Yatiri network in the asset's operational territory?",
             "options": [
                 "5",
                 "6",
@@ -60,7 +60,7 @@
                 "8"
             ],
             "correct_answer": "8",
-            "explanation": "There are 8 burst-relay nodes within the PAMC Yatiri network that serve the asset's operational territory, as listed in Section 8.7.",
+            "explanation": "There are 8 burst-relay nodes within the PAMC Yatiri network in the asset's operational territory, as listed in Section 8.7.",
             "topic": "Operational Tactics and Combat Doctrine"
         }
     ]

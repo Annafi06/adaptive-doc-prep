@@ -9,58 +9,58 @@
                 "Suspension is a continuous capability",
                 "Suspension is a decisive resource, not a continuous capability",
                 "Suspension is only used in emergency situations",
-                "Suspension is only used for defensive purposes"
+                "Suspension is never used in combat"
             ],
             "correct_answer": "B",
-            "explanation": "According to the Doctrine of Sequential Suspension, suspension is a decisive resource, not a continuous capability. This means that each activation of suspension should be treated as a valuable resource, similar to ammunition.",
+            "explanation": "The Doctrine of Sequential Suspension states that suspension is a decisive resource, not a continuous capability, and should be treated as ammunition.",
             "topic": "Operational Tactics and Combat Doctrine"
         },
         {
             "question": "What is the purpose of the Three-Two-One Rule in Cell Halc\u00f3n operations?",
             "options": [
-                "To ensure the asset's safety during engagements",
-                "To maximize the asset's lethality during engagements",
-                "To minimize the risk of civilian casualties during engagements",
-                "To enforce a specific tactical heuristic, including three activations maximum per 60-second window, two active sightlines maintained at any moment, and one pre-anchored extraction route held in reserve"
+                "To ensure maximum firepower in combat",
+                "To minimize civilian casualties",
+                "To establish a standard protocol for activations and sightlines",
+                "To promote aggressive tactics"
             ],
-            "correct_answer": "D",
-            "explanation": "The Three-Two-One Rule is a tactical heuristic that is drilled into Cell Halc\u00f3n operations and taught at Lima Academy. It is designed to ensure that the asset operates within specific guidelines to minimize risks and maximize effectiveness.",
+            "correct_answer": "C",
+            "explanation": "The Three-Two-One Rule is a tactical heuristic that dictates three activations maximum per 60-second window, two active sightlines maintained at any moment, and one pre-anchored extraction route held in reserve.",
             "topic": "Operational Tactics and Combat Doctrine"
         },
         {
-            "question": "What is the primary purpose of the Tier-Based Engagement Protocols?",
+            "question": "What is the primary base of the asset's operational territory?",
             "options": [
-                "To determine the asset's engagement authority based on the threat tier",
-                "To determine the asset's operational territory based on the threat tier",
-                "To determine the asset's tactical unit based on the threat tier",
-                "To determine the asset's logistical support based on the threat tier"
+                "Edificio Marasol",
+                "Cuartel Valpara\u00edso",
+                "Oficina Tarija",
+                "Annex Trelew"
             ],
-            "correct_answer": "A",
-            "explanation": "The Tier-Based Engagement Protocols are designed to determine the asset's engagement authority based on the threat tier. This ensures that the asset operates within specific guidelines and protocols to minimize risks and maximize effectiveness.",
+            "correct_answer": "B",
+            "explanation": "Cuartel Valpara\u00edso is the asset's primary operational base, designated as PAMC South Cone Headquarters.",
             "topic": "Operational Tactics and Combat Doctrine"
         },
         {
             "question": "What is the purpose of the Suspended Field Technique?",
             "options": [
-                "To create a transient kinetic-cover zone using multiple low-mass objects",
-                "To deliver compounded impacts using the Tail-Strike Technique",
-                "To minimize the risk of civilian casualties during engagements",
-                "To maximize the asset's lethality during engagements"
+                "To create a shield against enemy attacks",
+                "To deliver a powerful strike against multiple targets",
+                "To create a transient kinetic-cover zone",
+                "To disable enemy communications"
             ],
-            "correct_answer": "A",
-            "explanation": "The Suspended Field Technique uses the tertiary Hold ability to maintain multiple low-mass objects in mid-air simultaneously, creating a transient kinetic-cover zone. This technique is designed to provide the asset with a tactical advantage during engagements.",
+            "correct_answer": "C",
+            "explanation": "The Suspended Field Technique uses the tertiary Hold ability to maintain multiple low-mass objects in mid-air simultaneously, creating a transient kinetic-cover zone.",
             "topic": "Operational Tactics and Combat Doctrine"
         },
         {
-            "question": "What is the purpose of the Civilian Collateral Threshold?",
+            "question": "What is the asset's standing extraction discipline?",
             "options": [
-                "To determine the asset's engagement authority based on the threat tier",
-                "To minimize the risk of civilian casualties during engagements",
-                "To maximize the asset's lethality during engagements",
-                "To ensure the asset's safety during engagements"
+                "The Two-Minute Window",
+                "The Four-Minute Window",
+                "The Six-Minute Window",
+                "The Eight-Minute Window"
             ],
             "correct_answer": "B",
-            "explanation": "The Civilian Collateral Threshold is a standing order that specifies a zero-tolerance threshold below 80% confidence that no civilian harm will occur from any planned activation. This ensures that the asset operates within specific guidelines to minimize the risk of civilian casualties.",
+            "explanation": "The Four-Minute Window is the asset's standing extraction discipline, which requires the cell to reach the pre-anchored extraction route within four minutes from initiation of withdrawal.",
             "topic": "Operational Tactics and Combat Doctrine"
         }
     ]

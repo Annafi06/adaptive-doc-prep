@@ -130,10 +130,12 @@ def submit_answers(request: SubmissionRequest):
 
     logger.info(f"Session {session.id} submitted with score {score}")
 
-    export_kb_snapshot(
-        db,
-        f"scenario_b_iter{session.id}"
-    )
+    if request.iteration_name:
+
+        export_kb_snapshot(
+            db,
+            request.iteration_name
+        )
 
     return {
         "score": score,

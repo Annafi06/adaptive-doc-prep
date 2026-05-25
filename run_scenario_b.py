@@ -51,12 +51,20 @@ for iteration in iterations:
 
     fake_answers = []
 
-    for q in quiz_data["questions"]:
+    for index, q in enumerate(quiz_data["questions"]):
+
+        if index % 2 == 0:
+
+            simulated_answer = q["correct_answer"]
+
+        else:
+
+            simulated_answer = "Wrong Answer"
 
         fake_answers.append({
             "question": q["question"],
             "correct_answer": q["correct_answer"],
-            "user_answer": "Wrong Answer",
+            "user_answer": simulated_answer,
             "topic": q["topic"],
             "explanation": q["explanation"]
         })
@@ -65,7 +73,8 @@ for iteration in iterations:
         f"{BASE_URL}/submit-answers",
         json={
             "sections": iteration["sections"],
-            "answers": fake_answers
+            "answers": fake_answers,
+            "iteration_name": iteration["name"]
         }
     )
 

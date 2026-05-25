@@ -16,19 +16,19 @@
             "topic": "Operational Tactics and Combat Doctrine"
         },
         {
-            "question": "What is the classification of Lt. Sol\u00e8ne Bauer-Cortez's metahuman ability?",
+            "question": "What is the role of Lt. Sol\u00e8ne Bauer-Cortez in Cell Halc\u00f3n?",
             "options": [
-                "Class A-1",
-                "Class A-2",
-                "Class C-1 (Electromagnetic Sensing)",
-                "Class C-2"
+                "Lead Officer",
+                "Technical Specialist",
+                "Tracker / Recon",
+                "Field Medic"
             ],
-            "correct_answer": "C",
-            "explanation": "According to Section 6.3, Lt. Sol\u00e8ne Bauer-Cortez's metahuman classification is Class C-1 (Electromagnetic Sensing), which allows her to perceive EM emissions from 30 Hz to 6 GHz within 80 m.",
+            "correct_answer": "B",
+            "explanation": "According to Section 6.2, Lt. Sol\u00e8ne Bauer-Cortez is the Technical Specialist in Cell Halc\u00f3n.",
             "topic": "Operational Tactics and Combat Doctrine"
         },
         {
-            "question": "What is the name of the asset's primary base of operations?",
+            "question": "What is the name of the asset's primary operational base?",
             "options": [
                 "Cuartel Valpara\u00edso",
                 "Edificio Marasol",
@@ -40,27 +40,27 @@
             "topic": "Operational Tactics and Combat Doctrine"
         },
         {
-            "question": "What is the total number of micro-caches maintained by the asset across the Andean cordillera?",
+            "question": "What is the purpose of the micro-cache network maintained by the asset?",
             "options": [
-                "10",
-                "15",
-                "19",
-                "25"
+                "To store sensitive information",
+                "To provide backup communication systems",
+                "To supply the asset with equipment and resources during operations",
+                "To facilitate coordination with other PAMC cells"
             ],
             "correct_answer": "C",
-            "explanation": "According to Section 8.4, the asset maintains a network of 19 micro-caches distributed across the Andean cordillera.",
+            "explanation": "The micro-cache network is used to supply the asset with equipment and resources during operations, as described in Section 8.4 of the provided text.",
             "topic": "Operational Tactics and Combat Doctrine"
         },
         {
-            "question": "What is the name of the doctrine that was formally articulated after the engagement in Case 2022-0123?",
+            "question": "What is the name of the doctrine developed by the asset and Dr. L\u00e9on Marr\u00f3n-Saavedra?",
             "options": [
                 "Doctrine of Sequential Suspension",
-                "Doctrine of Inertial Suspension",
-                "Doctrine of Metahuman Cooperation",
-                "Doctrine of Operational Security"
+                "Calvache-Marr\u00f3n Equations",
+                "Tropopausa Doctrine",
+                "Suspended Field Doctrine"
             ],
             "correct_answer": "A",
-            "explanation": "The Doctrine of Sequential Suspension was formally articulated after the engagement in Case 2022-0123, as stated in Section 9.4 of the provided text.",
+            "explanation": "The Doctrine of Sequential Suspension is mentioned in Section 6.8 and 9.4 of the provided text as a doctrine developed by the asset and Dr. L\u00e9on Marr\u00f3n-Saavedra.",
             "topic": "Operational Tactics and Combat Doctrine"
         }
     ]

@@ -1,0 +1,32 @@
+[
+    {
+        "question": "What is the core principle of the Doctrine of Sequential Suspension regarding suspension?",
+        "is_correct": true,
+        "correct_answer": "B",
+        "explanation": "The Doctrine of Sequential Suspension states that suspension is a decisive resource, not a continuous capability, and should be treated as ammunition."
+    },
+    {
+        "question": "What is the purpose of the Three-Two-One Rule in Cell Halc\u00f3n operations?",
+        "is_correct": false,
+        "correct_answer": "C",
+        "explanation": "The Three-Two-One Rule is a tactical heuristic that dictates three activations maximum per 60-second window, two active sightlines maintained at any moment, and one pre-anchored extraction route held in reserve."
+    },
+    {
+        "question": "What is the primary base of the asset's operational territory?",
+        "is_correct": true,
+        "correct_answer": "B",
+        "explanation": "Cuartel Valpara\u00edso is the asset's primary operational base, designated as PAMC South Cone Headquarters."
+    },
+    {
+        "question": "What is the purpose of the Suspended Field Technique?",
+        "is_correct": false,
+        "correct_answer": "C",
+        "explanation": "The Suspended Field Technique uses the tertiary Hold ability to maintain multiple low-mass objects in mid-air simultaneously, creating a transient kinetic-cover zone."
+    },
+    {
+        "question": "What is the asset's standing extraction discipline?",
+        "is_correct": true,
+        "correct_answer": "B",
+        "explanation": "The Four-Minute Window is the asset's standing extraction discipline, which requires the cell to reach the pre-anchored extraction route within four minutes from initiation of withdrawal."
+    }
+]

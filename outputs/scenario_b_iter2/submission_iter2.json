@@ -1,36 +1,36 @@
 {
-    "score": "0/5",
+    "score": "3/5",
     "results": [
         {
             "question": "What is the name of the parent organization of Cell Halc\u00f3n?",
-            "is_correct": false,
+            "is_correct": true,
             "correct_answer": "A",
             "explanation": "The parent organization of Cell Halc\u00f3n is the Pan-American Metahuman Cooperative (PAMC), as stated in Section 6.1 of the provided text."
         },
         {
-            "question": "What is the classification of Lt. Sol\u00e8ne Bauer-Cortez's metahuman ability?",
+            "question": "What is the role of Lt. Sol\u00e8ne Bauer-Cortez in Cell Halc\u00f3n?",
             "is_correct": false,
-            "correct_answer": "C",
-            "explanation": "According to Section 6.3, Lt. Sol\u00e8ne Bauer-Cortez's metahuman classification is Class C-1 (Electromagnetic Sensing), which allows her to perceive EM emissions from 30 Hz to 6 GHz within 80 m."
+            "correct_answer": "B",
+            "explanation": "According to Section 6.2, Lt. Sol\u00e8ne Bauer-Cortez is the Technical Specialist in Cell Halc\u00f3n."
         },
         {
-            "question": "What is the name of the asset's primary base of operations?",
-            "is_correct": false,
+            "question": "What is the name of the asset's primary operational base?",
+            "is_correct": true,
             "correct_answer": "A",
             "explanation": "The asset's primary operational base is Cuartel Valpara\u00edso, as stated in Section 8.1 of the provided text."
         },
         {
-            "question": "What is the total number of micro-caches maintained by the asset across the Andean cordillera?",
+            "question": "What is the purpose of the micro-cache network maintained by the asset?",
             "is_correct": false,
             "correct_answer": "C",
-            "explanation": "According to Section 8.4, the asset maintains a network of 19 micro-caches distributed across the Andean cordillera."
+            "explanation": "The micro-cache network is used to supply the asset with equipment and resources during operations, as described in Section 8.4 of the provided text."
         },
         {
-            "question": "What is the name of the doctrine that was formally articulated after the engagement in Case 2022-0123?",
-            "is_correct": false,
+            "question": "What is the name of the doctrine developed by the asset and Dr. L\u00e9on Marr\u00f3n-Saavedra?",
+            "is_correct": true,
             "correct_answer": "A",
-            "explanation": "The Doctrine of Sequential Suspension was formally articulated after the engagement in Case 2022-0123, as stated in Section 9.4 of the provided text."
+            "explanation": "The Doctrine of Sequential Suspension is mentioned in Section 6.8 and 9.4 of the provided text as a doctrine developed by the asset and Dr. L\u00e9on Marr\u00f3n-Saavedra."
         }
     ],
-    "exported_file": "outputs/session_8.json"
+    "exported_file": "outputs/session_14.json"
 }

@@ -1,7 +1,7 @@
 [
     {
-        "question": "What is the primary base of the asset's operations?",
-        "is_correct": false,
+        "question": "What is the primary base of the asset's operational territory?",
+        "is_correct": true,
         "correct_answer": "Cuartel Valpara\u00edso",
         "explanation": "According to Section 8.1, Cuartel Valpara\u00edso is designated as the asset's primary operational base."
     },
@@ -9,11 +9,11 @@
         "question": "What is the total floor area of Cuartel Valpara\u00edso?",
         "is_correct": false,
         "correct_answer": "4,820 m\u00b2",
-        "explanation": "The total floor area of Cuartel Valpara\u00edso is given as 4,820 m\u00b2 in Section 8.1."
+        "explanation": "The total floor area of Cuartel Valpara\u00edso is given as 4,820 m\u00b2 in the parameter table."
     },
     {
         "question": "How many micro-caches does the asset maintain across the Andean cordillera?",
-        "is_correct": false,
+        "is_correct": true,
         "correct_answer": "19",
         "explanation": "The asset maintains a network of 19 micro-caches distributed across the Andean cordillera, as stated in Section 8.4."
     },
@@ -24,9 +24,9 @@
         "explanation": "The asset's authorized operational territory spans approximately 6.8 million km\u00b2, as mentioned in Section 8.5."
     },
     {
-        "question": "How many burst-relay nodes serve the asset's operational territory within the PAMC Yatiri network?",
-        "is_correct": false,
+        "question": "How many burst-relay nodes are within the PAMC Yatiri network in the asset's operational territory?",
+        "is_correct": true,
         "correct_answer": "8",
-        "explanation": "There are 8 burst-relay nodes within the PAMC Yatiri network that serve the asset's operational territory, as listed in Section 8.7."
+        "explanation": "There are 8 burst-relay nodes within the PAMC Yatiri network in the asset's operational territory, as listed in Section 8.7."
     }
 ]
