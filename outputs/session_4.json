@@ -1,0 +1,32 @@
+[
+    {
+        "question": "What is the core principle of the Doctrine of Sequential Suspension regarding suspension?",
+        "is_correct": false,
+        "correct_answer": "B",
+        "explanation": "The Doctrine of Sequential Suspension states that suspension is a decisive resource, not a continuous capability, and should be treated as ammunition."
+    },
+    {
+        "question": "What is the Three-Two-One Rule in Cell Halc\u00f3n operations?",
+        "is_correct": false,
+        "correct_answer": "B",
+        "explanation": "The Three-Two-One Rule states that there should be three activations maximum per 60-second window, two active sightlines maintained at any moment, and one pre-anchored extraction route held in reserve."
+    },
+    {
+        "question": "What is the purpose of the Tail-Strike Technique?",
+        "is_correct": false,
+        "correct_answer": "C",
+        "explanation": "The Tail-Strike Technique exploits Tail Momentum to deliver compounded impacts that cannot be achieved by linear projectile motion alone, allowing for a strike to be delivered from an arbitrary, target-adjacent location."
+    },
+    {
+        "question": "What is the primary base of the asset's operational territory?",
+        "is_correct": false,
+        "correct_answer": "B",
+        "explanation": "Cuartel Valpara\u00edso is the primary operational base of the asset, designated as PAMC South Cone Headquarters."
+    },
+    {
+        "question": "What is the asset's authorized operational territory?",
+        "is_correct": false,
+        "correct_answer": "B",
+        "explanation": "The asset's authorized operational territory spans approximately 6.8 million km\u00b2, encompassing the western and southern Andean states, including Chile, Bolivia, Peru, Argentina, and parts of Ecuador."
+    }
+]

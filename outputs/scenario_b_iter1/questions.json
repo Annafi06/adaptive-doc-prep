@@ -1,0 +1,65 @@
+{
+    "weak_topics_used": [],
+    "questions": [
+        {
+            "question": "What is the core principle of the Doctrine of Sequential Suspension regarding suspension?",
+            "options": [
+                "Suspension is a continuous capability",
+                "Suspension is a decisive resource, not a continuous capability",
+                "Suspension is only used in emergency situations",
+                "Suspension is only used for defensive purposes"
+            ],
+            "correct_answer": "B",
+            "explanation": "The Doctrine of Sequential Suspension states that suspension is a decisive resource, not a continuous capability, and should be treated as ammunition.",
+            "topic": "Operational Tactics and Combat Doctrine"
+        },
+        {
+            "question": "What is the Three-Two-One Rule in Cell Halc\u00f3n operations?",
+            "options": [
+                "Three activations maximum per 30-second window, two active sightlines maintained at any moment, one pre-anchored extraction route held in reserve",
+                "Three activations maximum per 60-second window, two active sightlines maintained at any moment, one pre-anchored extraction route held in reserve",
+                "Two activations maximum per 60-second window, three active sightlines maintained at any moment, one pre-anchored extraction route held in reserve",
+                "One activation maximum per 60-second window, three active sightlines maintained at any moment, two pre-anchored extraction routes held in reserve"
+            ],
+            "correct_answer": "B",
+            "explanation": "The Three-Two-One Rule states that there should be three activations maximum per 60-second window, two active sightlines maintained at any moment, and one pre-anchored extraction route held in reserve.",
+            "topic": "Operational Tactics and Combat Doctrine"
+        },
+        {
+            "question": "What is the purpose of the Tail-Strike Technique?",
+            "options": [
+                "To deliver a strike with reduced velocity",
+                "To deliver a strike with increased velocity",
+                "To deliver a strike from an arbitrary, target-adjacent location",
+                "To deliver a strike with a curved trajectory"
+            ],
+            "correct_answer": "C",
+            "explanation": "The Tail-Strike Technique exploits Tail Momentum to deliver compounded impacts that cannot be achieved by linear projectile motion alone, allowing for a strike to be delivered from an arbitrary, target-adjacent location.",
+            "topic": "Operational Tactics and Combat Doctrine"
+        },
+        {
+            "question": "What is the primary base of the asset's operational territory?",
+            "options": [
+                "Edificio Marasol",
+                "Cuartel Valpara\u00edso",
+                "Oficina Tarija",
+                "Annex Trelew"
+            ],
+            "correct_answer": "B",
+            "explanation": "Cuartel Valpara\u00edso is the primary operational base of the asset, designated as PAMC South Cone Headquarters.",
+            "topic": "Known Bases, Safehouses, and Operational Territory"
+        },
+        {
+            "question": "What is the asset's authorized operational territory?",
+            "options": [
+                "Approximately 3.8 million km\u00b2, encompassing only Chile and Argentina",
+                "Approximately 6.8 million km\u00b2, encompassing the western and southern Andean states",
+                "Approximately 10 million km\u00b2, encompassing all of South America",
+                "Approximately 1.2 million km\u00b2, encompassing only Peru and Bolivia"
+            ],
+            "correct_answer": "B",
+            "explanation": "The asset's authorized operational territory spans approximately 6.8 million km\u00b2, encompassing the western and southern Andean states, including Chile, Bolivia, Peru, Argentina, and parts of Ecuador.",
+            "topic": "Operational Territory"
+        }
+    ]
+}

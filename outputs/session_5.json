@@ -1,0 +1,32 @@
+[
+    {
+        "question": "What is the primary base of the asset's operations?",
+        "is_correct": false,
+        "correct_answer": "Cuartel Valpara\u00edso",
+        "explanation": "According to Section 8.1, Cuartel Valpara\u00edso is the asset's primary operational base."
+    },
+    {
+        "question": "What is the name of the asset's tactical unit?",
+        "is_correct": false,
+        "correct_answer": "Cell Halc\u00f3n",
+        "explanation": "According to Section 6.2, Cell Halc\u00f3n is the four-operative tactical unit under SLATEFALL's command."
+    },
+    {
+        "question": "What is the asset's authorized operational territory?",
+        "is_correct": false,
+        "correct_answer": "The western and southern Andean states",
+        "explanation": "According to Section 8.5, the asset's authorized operational territory spans approximately 6.8 million km\u00b2, encompassing the western and southern Andean states."
+    },
+    {
+        "question": "What is the name of the doctrine that the asset has been involved in developing?",
+        "is_correct": false,
+        "correct_answer": "The Doctrine of Sequential Suspension",
+        "explanation": "According to Section 9.4, the asset was involved in the formal articulation of the Doctrine of Sequential Suspension during Case 2022-0123."
+    },
+    {
+        "question": "What is the purpose of the micro-cache network maintained by the asset?",
+        "is_correct": false,
+        "correct_answer": "To supply the asset with equipment and resources",
+        "explanation": "According to Section 8.4, the micro-cache network is used to supply the asset with equipment and resources, such as tungsten throwing batons, Calexin-7 doses, and local currency."
+    }
+]

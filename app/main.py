@@ -8,6 +8,12 @@ from app.models import Session, QuestionResult
 from app.adaptive_engine import get_weak_topics
 from app.analytics import calculate_topic_accuracy
 from app.exporter import export_session_results
+from app.logger import logger
+from app.adaptive_engine import (
+    get_weak_topics,
+    get_previous_questions
+)
+from app.kb_snapshot import export_kb_snapshot
 
 app = FastAPI()
 
@@ -22,6 +28,7 @@ def generate_quiz(request: QuizRequest):
 
     db = SessionLocal()
 
+    previous_questions = get_previous_questions(db)
     weak_topics = get_weak_topics(db)
 
     with open("data/sections.json", "r", encoding="utf-8") as f:
@@ -41,7 +48,8 @@ def generate_quiz(request: QuizRequest):
         questions = generate_mcqs(
             combined_text,
             request.num_questions,
-            weak_topics
+            weak_topics,
+            previous_questions
         )
 
     except Exception as e:
@@ -49,6 +57,8 @@ def generate_quiz(request: QuizRequest):
         return {
             "error": str(e)
         }
+    
+    logger.info(f"Quiz generated for sections {request.sections}")
 
     return {
         "weak_topics_used": weak_topics,
@@ -116,6 +126,13 @@ def submit_answers(request: SubmissionRequest):
     export_path = export_session_results(
     session.id,
     results
+    )
+
+    logger.info(f"Session {session.id} submitted with score {score}")
+
+    export_kb_snapshot(
+        db,
+        f"scenario_b_iter{session.id}"
     )
 
     return {

@@ -13,7 +13,8 @@ client = Groq(
 def generate_mcqs(
     section_text,
     num_questions=5,
-    weak_topics=None
+    weak_topics=None,
+    previous_questions=None
 ):
     weak_topics_text = ""
 
@@ -21,6 +22,16 @@ def generate_mcqs(
         weak_topics_text = f"""
         Focus more on these weak topics:
         {', '.join(weak_topics)}
+        """
+    previous_questions_text = ""
+
+    if previous_questions:
+
+        joined_questions = "\n".join(previous_questions[:10])
+
+        previous_questions_text = f"""
+        Avoid generating questions similar to these:
+        {joined_questions}
         """
 
     prompt = f"""
@@ -54,6 +65,7 @@ def generate_mcqs(
     ]
 
     {weak_topics_text}
+    {previous_questions_text}
     
     TEXT:
     {section_text}

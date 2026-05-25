@@ -1,6 +1,7 @@
 from collections import Counter
 from sqlalchemy.orm import Session
 from app.models import QuestionResult
+from app.models import QuestionResult
 
 
 def get_weak_topics(db: Session):
@@ -20,3 +21,11 @@ def get_weak_topics(db: Session):
     ]
 
     return weak_topics
+
+def get_previous_questions(db):
+
+    previous = db.query(
+        QuestionResult.question
+    ).all()
+
+    return [p[0] for p in previous]
