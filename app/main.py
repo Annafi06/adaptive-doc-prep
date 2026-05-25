@@ -189,6 +189,29 @@ def get_session_details(session_id: int):
         "results": results
     }
 
+@app.get("/sessions/by-section/{section_id}")
+def get_sessions_by_section(section_id: int):
+
+    db = SessionLocal()
+
+    sessions = db.query(Session).all()
+
+    filtered = []
+
+    for s in sessions:
+
+        if str(section_id) in s.sections:
+
+            filtered.append({
+                "session_id": s.id,
+                "sections": s.sections,
+                "score": s.score
+            })
+
+    return {
+        "sessions": filtered
+    }
+
 @app.get("/analytics")
 def analytics():
 

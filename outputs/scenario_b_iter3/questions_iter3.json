@@ -1,0 +1,67 @@
+{
+    "weak_topics_used": [
+        "Operational Tactics and Combat Doctrine"
+    ],
+    "questions": [
+        {
+            "question": "What is the primary base of the asset's operations?",
+            "options": [
+                "Edificio Marasol",
+                "Cuartel Valpara\u00edso",
+                "Oficina Tarija",
+                "Annex Trelew"
+            ],
+            "correct_answer": "Cuartel Valpara\u00edso",
+            "explanation": "According to Section 8.1, Cuartel Valpara\u00edso is designated as the asset's primary operational base.",
+            "topic": "Operational Tactics and Combat Doctrine"
+        },
+        {
+            "question": "What is the total floor area of Cuartel Valpara\u00edso?",
+            "options": [
+                "3,820 m\u00b2",
+                "4,820 m\u00b2",
+                "5,820 m\u00b2",
+                "6,820 m\u00b2"
+            ],
+            "correct_answer": "4,820 m\u00b2",
+            "explanation": "The total floor area of Cuartel Valpara\u00edso is given as 4,820 m\u00b2 in Section 8.1.",
+            "topic": "Operational Tactics and Combat Doctrine"
+        },
+        {
+            "question": "How many micro-caches does the asset maintain across the Andean cordillera?",
+            "options": [
+                "10",
+                "15",
+                "19",
+                "25"
+            ],
+            "correct_answer": "19",
+            "explanation": "The asset maintains a network of 19 micro-caches distributed across the Andean cordillera, as stated in Section 8.4.",
+            "topic": "Operational Tactics and Combat Doctrine"
+        },
+        {
+            "question": "What is the approximate area of the asset's authorized operational territory?",
+            "options": [
+                "4 million km\u00b2",
+                "5 million km\u00b2",
+                "6.8 million km\u00b2",
+                "8 million km\u00b2"
+            ],
+            "correct_answer": "6.8 million km\u00b2",
+            "explanation": "The asset's authorized operational territory spans approximately 6.8 million km\u00b2, as mentioned in Section 8.5.",
+            "topic": "Operational Tactics and Combat Doctrine"
+        },
+        {
+            "question": "How many burst-relay nodes serve the asset's operational territory within the PAMC Yatiri network?",
+            "options": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "correct_answer": "8",
+            "explanation": "There are 8 burst-relay nodes within the PAMC Yatiri network that serve the asset's operational territory, as listed in Section 8.7.",
+            "topic": "Operational Tactics and Combat Doctrine"
+        }
+    ]
+}

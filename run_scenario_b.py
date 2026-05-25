@@ -39,8 +39,10 @@ for iteration in iterations:
         exist_ok=True
     )
 
+    iteration_number = iteration["name"].split("iter")[-1]
+
     with open(
-        f"outputs/{iteration['name']}/questions.json",
+        f"outputs/{iteration['name']}/questions_iter{iteration_number}.json",
         "w",
         encoding="utf-8"
     ) as f:
@@ -70,7 +72,7 @@ for iteration in iterations:
     submission_data = submit_response.json()
 
     with open(
-        f"outputs/{iteration['name']}/submission.json",
+        f"outputs/{iteration['name']}/submission_iter{iteration_number}.json",
         "w",
         encoding="utf-8"
     ) as f:

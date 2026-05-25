@@ -1,0 +1,27 @@
+[
+    {
+        "session_id": 9,
+        "sections": "[8]",
+        "score": "0/5"
+    },
+    {
+        "session_id": 8,
+        "sections": "[6, 8, 9]",
+        "score": "0/5"
+    },
+    {
+        "session_id": 7,
+        "sections": "[5, 8]",
+        "score": "0/5"
+    },
+    {
+        "session_id": 6,
+        "sections": "[8]",
+        "score": "0/5"
+    },
+    {
+        "session_id": 5,
+        "sections": "[6, 8, 9]",
+        "score": "0/5"
+    }
+]

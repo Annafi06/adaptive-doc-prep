@@ -1,0 +1,67 @@
+{
+    "weak_topics_used": [
+        "Operational Tactics and Combat Doctrine"
+    ],
+    "questions": [
+        {
+            "question": "What is the core principle of the Doctrine of Sequential Suspension regarding suspension?",
+            "options": [
+                "Suspension is a continuous capability",
+                "Suspension is a decisive resource, not a continuous capability",
+                "Suspension is only used in emergency situations",
+                "Suspension is only used for defensive purposes"
+            ],
+            "correct_answer": "B",
+            "explanation": "According to the Doctrine of Sequential Suspension, suspension is a decisive resource, not a continuous capability. This means that each activation of suspension should be treated as a valuable resource, similar to ammunition.",
+            "topic": "Operational Tactics and Combat Doctrine"
+        },
+        {
+            "question": "What is the purpose of the Three-Two-One Rule in Cell Halc\u00f3n operations?",
+            "options": [
+                "To ensure the asset's safety during engagements",
+                "To maximize the asset's lethality during engagements",
+                "To minimize the risk of civilian casualties during engagements",
+                "To enforce a specific tactical heuristic, including three activations maximum per 60-second window, two active sightlines maintained at any moment, and one pre-anchored extraction route held in reserve"
+            ],
+            "correct_answer": "D",
+            "explanation": "The Three-Two-One Rule is a tactical heuristic that is drilled into Cell Halc\u00f3n operations and taught at Lima Academy. It is designed to ensure that the asset operates within specific guidelines to minimize risks and maximize effectiveness.",
+            "topic": "Operational Tactics and Combat Doctrine"
+        },
+        {
+            "question": "What is the primary purpose of the Tier-Based Engagement Protocols?",
+            "options": [
+                "To determine the asset's engagement authority based on the threat tier",
+                "To determine the asset's operational territory based on the threat tier",
+                "To determine the asset's tactical unit based on the threat tier",
+                "To determine the asset's logistical support based on the threat tier"
+            ],
+            "correct_answer": "A",
+            "explanation": "The Tier-Based Engagement Protocols are designed to determine the asset's engagement authority based on the threat tier. This ensures that the asset operates within specific guidelines and protocols to minimize risks and maximize effectiveness.",
+            "topic": "Operational Tactics and Combat Doctrine"
+        },
+        {
+            "question": "What is the purpose of the Suspended Field Technique?",
+            "options": [
+                "To create a transient kinetic-cover zone using multiple low-mass objects",
+                "To deliver compounded impacts using the Tail-Strike Technique",
+                "To minimize the risk of civilian casualties during engagements",
+                "To maximize the asset's lethality during engagements"
+            ],
+            "correct_answer": "A",
+            "explanation": "The Suspended Field Technique uses the tertiary Hold ability to maintain multiple low-mass objects in mid-air simultaneously, creating a transient kinetic-cover zone. This technique is designed to provide the asset with a tactical advantage during engagements.",
+            "topic": "Operational Tactics and Combat Doctrine"
+        },
+        {
+            "question": "What is the purpose of the Civilian Collateral Threshold?",
+            "options": [
+                "To determine the asset's engagement authority based on the threat tier",
+                "To minimize the risk of civilian casualties during engagements",
+                "To maximize the asset's lethality during engagements",
+                "To ensure the asset's safety during engagements"
+            ],
+            "correct_answer": "B",
+            "explanation": "The Civilian Collateral Threshold is a standing order that specifies a zero-tolerance threshold below 80% confidence that no civilian harm will occur from any planned activation. This ensures that the asset operates within specific guidelines to minimize the risk of civilian casualties.",
+            "topic": "Operational Tactics and Combat Doctrine"
+        }
+    ]
+}
