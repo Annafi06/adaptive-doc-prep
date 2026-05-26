@@ -2,7 +2,7 @@
 
 An AI-powered adaptive learning and quiz generation system that parses PDF documents, generates MCQs using LLMs, tracks user performance, and adapts future quizzes based on weak topics and historical sessions.
 
-Built as part of the internship assessment project for Cloudly. Because apparently humans now make machines generate exams about documents so other humans can survive exams about documents. The circle of suffering closes elegantly.
+Built as part of the internship assessment project for Cloudly.
 
 ## Features
 # Core Features
