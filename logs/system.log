@@ -33,3 +33,14 @@
 2026-05-25 20:52:37,688 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2026-05-25 20:52:37,689 - INFO - Quiz generated for sections [8]
 2026-05-25 20:52:37,700 - INFO - Session 12 submitted with score 3/5
+2026-05-25 20:59:20,490 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-25 20:59:20,499 - INFO - Quiz generated for sections [5, 8]
+2026-05-25 20:59:20,515 - INFO - Session 13 submitted with score 3/5
+2026-05-25 20:59:22,820 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-25 20:59:22,821 - INFO - Quiz generated for sections [6, 8, 9]
+2026-05-25 20:59:22,831 - INFO - Session 14 submitted with score 3/5
+2026-05-25 20:59:22,893 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-25 20:59:22,893 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2026-05-25 20:59:25,232 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-25 20:59:25,234 - INFO - Quiz generated for sections [8]
+2026-05-25 20:59:25,245 - INFO - Session 15 submitted with score 3/5
